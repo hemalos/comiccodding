@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ComicCodding</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+		}
+		header, footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+		h1, h2 {
+			text-align: center;
+			margin-top: 0;
+		}
+		section {
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			margin: 20px;
+			flex: 1 1 300px;
+			min-height: 300px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			overflow: hidden;
+		}
+		section:hover {
+			box-shadow: 0 0 20px rgba(0,0,0,0.4);
+			transform: translateY(-5px);
+		}
+		iframe {
+			border: none;
+			width: 100%;
+			height: 200px;
+		}
+		button {
+			background-color: #333;
+			color: #fff;
+			border: none;
+			padding: 10px;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: #555;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>ComicCodding - Learn to Code, Maths & Science in a Fun Way</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Coding</h2>
+			<iframe src="https://www.youtube.com/embed/PkZNo7MFNFg"></iframe>
+			<button onclick="window.location.href='https://javascriptquiz.com/'">Take the Quiz</button>
+		</section>
+		<section>
+			<h2>Maths</h2>
+			<iframe src="https://www.youtube.com/embed/rAof9Ld5sOg"></iframe>
+			<button onclick="window.location.href='https://www.khanacademy.org/math/ap-calculus-ab/ab-differentiation-1-new/ab-2-1/e/derivative-at-a-point-as-slope-of-tangent-line'">Take the Quiz</button>
+		</section>
+		<section>
+			<h2>Science</h2>
+			<iframe src="https://www.youtube.com/embed/Zqt3btS1FwE"></iframe>
+			<button onclick="window.location.href='https://www.proprofs.com/quiz-school/topic/quantum-physics'">Take the Quiz</button>
+		</section>
+	</main>
+	<footer>
+		<p>© 2021 ComicCodding. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
